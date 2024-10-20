@@ -53,6 +53,8 @@ android {
 
 dependencies {
 
+    implementation(libs.androidx.foundation.layout.android)
+    implementation(libs.androidx.runtime.android)
     val nav_version = "2.8.2"
 
     implementation(libs.androidx.core.ktx)
